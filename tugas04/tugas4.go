@@ -2,14 +2,12 @@ package main
 
 import "fmt"
 
-// var i = 0
-
 func main() {
 	for i := 1; i <= 20; i++ {
 		if i%2 == 0 {
 			fmt.Println("berkualitas")
 		} else if i%3 == 0 {
-			fmt.Println("I LOVE CODING")
+			fmt.Println("I Love Coding")
 		} else {
 			fmt.Println("Santai")
 		}
